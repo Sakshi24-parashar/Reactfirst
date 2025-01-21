@@ -1,0 +1,41 @@
+.move{
+    animation: goll  10s infinite;
+}
+@keyframes goll {
+    0%{
+        transform:rotate3d(0,0,0,0);
+    }
+    25%{
+        transform: rotate3d(0, 1, 0, 60deg);
+        border-left-color: blanchedalmond;
+    }
+    50%{
+        transform:rotate3d(0,0,0,0);
+    }
+    75%{
+        transform: rotate3d(0, -1, 0, 60deg);
+    }
+    
+    100%{
+        transform: rotate3d(0,0,0,0);
+    }
+}
+
+.code{
+    animation: codes 10s infinite;
+}
+@keyframes codes {
+    0%{
+        bottom:0;
+        left:0;
+    }
+    50%{
+        bottom:40px;
+        left:0;
+    }
+    100%{
+        bottom:0;
+        left:0;
+    }
+    
+}

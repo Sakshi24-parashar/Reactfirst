@@ -1,0 +1,15 @@
+.pic{
+    animation: pics 30s infinite;
+}
+@keyframes pics {
+    0%{
+        top: 0;
+    }
+   50%{
+     top:-430px;
+   }
+  100%{
+    top:-860px;
+  }
+    
+}

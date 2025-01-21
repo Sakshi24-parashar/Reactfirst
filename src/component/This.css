@@ -1,0 +1,30 @@
+.left{
+    animation: lefts 3s infinite;
+}
+@keyframes lefts {
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(-7px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+    
+}
+.right{
+    animation: rights 3s infinite;
+}
+@keyframes rights {
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(7px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+    
+}
